@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <font size="100" face="" color="light blue"><b><i><u>Hello World!</u></i></b></font>
+<p>html tag 
+    a container for some content  or other tags.
+ basic html page
+        <!DOCTYPE html>   tells browser you are using HTML
+        <html>            root of an html document
+        <head>            container for metadata
+            <title>       page title       </title>
+        </head>
+        <body>            contains all the data redered by the browser
+            <p>hello world </p>
+        <body>
+      </html> 
+
+ quick point 
+  html tag is a parent tag for head and body.
+  most of html element have opening & cloasing tags with content in b/w.
+  some tags have no content in b/w.
+  we can use inspect elements / view page source to edit html.</p>
+<p>This is a paragrabh</p>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<h7>Heading 7</h7>
+<p>sample paragraphsample paragraphsample paragraphsample paragraphsample paragraphsample paragraphsample paragraphsample paragraph sample paragraphsample paragraphsample paragraph</p>
+
+<p>
+    For inserting <b>Image</b> in web page we have to use <u>img src= "" syntax</u> 
+    for custmiszing the <b>image Height and width</b> we can use <b><i>height and width attribute</i></b> in img syntax.
+</p>
+<p>
+    Anchor tag is used for inserting an hyperlink  in web page. It include "href" which determines the URL of relative site 
+    There is also another attribute which helps us to open the hyperlink in a new tab. For this we have to insert "target="_main"" in anchor tag or we can also use "target="_blank"".
+</p>
+<p>
+    We can also make a <b>img clickable</b> by inserting the <u>img tag </u>in b/w the <b>Anchor </b> tag
+</p>
+<p>
+    There are two types of elements
+    1. Block elements :- takes full width
+    2. Inline elments :- takes the needed width only
+</p>
+<div>
+    <p>Hello world!</p>
+    <p>Namaste</p>
+    <p>Hi</p>
+</div>
+<div>
+    <p>Bye</p>
+    <p>Good bye</p>
+    <p>Ciao</p>
+</div>
+<ol type="1" >
+   <li><a href="https://www.youtube.com/" target="_main">Google</a><br></li>
+   <li><a href="http://127.0.0.1:5500/INDEX.HTML">Go live</a></li>
+</ol>
+<img src="/image.jpeg" alt="Random image " width="250" height="200">
+<br/><br/><br/>
+<big>this tag shows big text</big><hr width="500" />
+<small>this tag shows small tag</small>
+<pre>
+    <h1>
+    bol<b>d</b>
+    ital<i>ic</i>
+    underli<u>ne</u>
+    <big>big</big>
+    <small>small</small>
+    superscrip<sup>t</sup> 
+    subscrip<sub>t</sub>
+    breakline
+    <s>strikethrough</s>
+    </h1>
+</pre>
+<ul type="hollow">
+<li><a href="/Education.html">Education</a><br></li>
+<li><a href="/Experience.html">Experience</a><br></li>
+<li><a href="/Projects.html">Projects</a><br></li>
+</ul>
+<!--
+    Page layout Techniques
+    using semantic tags for layout  and using the right tags 
+    <header> <main>  <footer>
+-->
+<header>
+    <pre>
+     <h3>  <a href="/Education.html" target="_main"><img src="/image.jpeg" height="50"></a>                <a href="/Projects.html">Projects</a></h3> 
+    </pre>
+</header>
+<!--
+    Inside main tag 
+    1. Section tag :-
+-->
+<main>
+    <section>
+        Education:- NSIT(COE)  |  School:- Tagore 
+    </section>
+    <section>
+        Experience:- Microsoft  | DRDO Intern  | MS Intern
+    </section>
+    <article>
+        My Story:-
+    </article>
+    <aside>
+        This is an ad
+    </aside>
+</main>
+<footer>
+    <pre> For more help <a href="aryanaichra2345@gmail.com">CLICK HERE</a></pre>
+</footer>
+<br>
+<br>
+<br>
+<marquee style="color:aqua; font-size:100px; font-family:AkayaKanadaka;" behaviour="alternate">Hello World!</marquee>
+<p>
+   Above word is scrolling horizontally on the screen by the help of <b><i>MARQUEE </i></b> tag. This tag is used for floating the string on the web page especially for displaying the<b><i>NOTICE</i></b>
+   We have 2 commonly used attribute of marquee tag
+   <ol type="1">
+    <li>Behavior
+        <ul type="hollow">
+            <li>alternate</li>
+            <li>scroll</li>
+            <li>slide</li>
+        </ul>
+    </li>
+    <li>direction
+        <ul type="hollow">
+            <li>up</li>
+            <li>down</li>
+            <li>left</li>
+            <li>right</li>
+        </ul>
+    </li>
+    <li>width</li>   
+    <li>height</li>
+    <li>scrolldelay</li>
+    <li>scrollamount</li>
+    <li>loop</li>
+    <li>bgcolor</li>
+    <li>hspace</li>
+    <li>vspace</li>
+</ol>
+</p>
+<marquee bgcolor="red" style="color:purple; font-size:50px;" scrollamount="30%" behavior="scroll" direction="right">End of Marquee</marquee><br>
+<h5>meta tag</h5>
+The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data. <b>META</b> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings. Metadata will not be displayed on the page, but is machine parsable. Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services. Meta tag is not visible in web page.<b>META</b> is a empty tag.
+</body>
+</html> 
